@@ -1,7 +1,7 @@
-# README
+# README Generator
 
 ## Description
-this generates professional quality README files for projects
+This program will generate a high quality README file
 
 ## Table of Contents
 
@@ -10,19 +10,23 @@ this generates professional quality README files for projects
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
-make sure you install inquirer
+Make sure to install inquirer version 8.2.4
 
 ## Usage
-The README will be placed in the rm folder
+Run the program by using the terminal and using node index.js
 
 ## License
 MIT
 
 ## Contributing
-idk what these are tbh
+i dont have any
 
 ## Tests
-lol
+i dont have any
 
+## Questions
+Email: timjohnson1897@gmail.com
+Github:'https://github.com/timjohnson818'

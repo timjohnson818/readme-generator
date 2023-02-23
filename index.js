@@ -1,7 +1,11 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
+const { makeBadge, ValidationError } = require('badge-maker')
+
+
 
 const generateREADME = ({ title, description, install, usage, guidelines, testInstructions, license, user, email}) =>
+
 `# ${title}
 
 ## Description
@@ -14,6 +18,7 @@ ${description}
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${install}
@@ -30,6 +35,9 @@ ${guidelines}
 ## Tests
 ${testInstructions}
 
+## Questions
+Email: ${email}
+Github:'https://github.com/${user}'
 `
 
 
@@ -84,6 +92,7 @@ inquirer
         },
     ])
     .then((data) => {
+
        const READMEcontent = generateREADME(data);
         
        fs.writeFile('README.md', READMEcontent, (err) =>
