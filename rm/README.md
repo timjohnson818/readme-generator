@@ -1,7 +1,7 @@
 # README Generator
 
 ## Description
-Its a program that makes README files
+It generates README files
 
 ## Table of Contents
 
@@ -13,19 +13,19 @@ Its a program that makes README files
 - [Questions](#questions)
 
 ## Installation
-install inquirer version 8.2.4
+make sure to install inquirer 8.2.4
 
 ## Usage
-run it using the terminal and the command node index.js
+Placeholder usage info
 
 ## License
-MIT
+Microsoft Public License
 
 ## Contributing
-I don't have any
+placeholder contribution guidelines
 
 ## Tests
-do the tests
+placeholder test instructions
 
 ## Questions
 Email: timjohnson1897@gmail.com
