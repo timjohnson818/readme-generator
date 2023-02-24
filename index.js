@@ -95,7 +95,7 @@ inquirer
 
        const READMEcontent = generateREADME(data);
         
-       fs.writeFile('README.md', READMEcontent, (err) =>
+       fs.writeFile('./rm/README.md', READMEcontent, (err) =>
         err ? console.log(err) : console.log('Successfully created README.md!')
        );
     });
